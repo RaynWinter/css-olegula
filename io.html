@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Framework</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/typography.css">
+        <link rel="stylesheet" href="css/buttons.css">
+        <link rel="stylesheet" href="css/check-and-radio.css">
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    </head>
+    <body>
+        
+        <a href="https://github.com/RaynWinter/css-olegula">GitHub</a>
+        <a href="typography.html">Typography</a>
+        <a href="io.html">I/O</a>
+        <h2>Basic I/O</h2>
+
+        <!-- Buttons -->
+        <h3>Buttons</h3>
+        <p class="p-subtitle-1">Buttons are for functional part, should not lead to other pages without action</p>
+            <Button class="button-default">Default</Button><br><br>
+            <Button class="button-primary">Primary</Button><br><br>
+            <Button class="button-alt">Alternative</Button><br><br>
+            <Button class="button-disabled" disabled>Disabled</Button><br><br>
+
+        <!-- Checkbox -->
+        <h3>Checkbox</h3>
+            <div class="checkbox">
+                <input class="custom-checkbox" type="checkbox" id="check-1" checked>
+                <label for="check-1">Defualt Checked</label>
+            </div>
+            <div class="checkbox">
+                <input class="custom-checkbox" type="checkbox" id="check-2" >
+                <label for="check-2">Defualt Unchecked</label>
+            </div>
+            <div class="checkbox">
+                <input class="custom-checkbox" type="checkbox" id="check-3" disabled>
+                <label for="check-3">Disabled</label>
+            </div>
+        
+
+        <!-- Radio -->
+        <h3>Radio</h3>
+            <div class="radio">
+                <input class="custom-radio" type="radio" id="radio-1" name="name" checked="true">
+                <label for="radio-1">Defualt Checked</label>
+            </div>
+            <div class="radio">
+                <input class="custom-radio" type="radio" id="radio-2" name="name" >
+                <label for="radio-2">Defualt unchecked</label>
+            </div>
+            <div class="radio">
+                <input class="custom-radio" type="radio" id="radio-3" disabled="disabled">
+                <label for="radio-3">Disabled Radio</label>
+            </div>
+
+
+
+        <!-- Date picker -->
+        <h3>Date Picker</h3>
+            <div class="custom-data-picker">
+              <label for="start">Start date:</label>
+              <input type="date" id="start" name="trip-start" value="2023-07-22" min="2023-01-01" max="2023-12-31">
+            </div>
+
+    </body>
+</html>

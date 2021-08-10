@@ -1,0 +1,115 @@
+body {
+    padding: 20px 50px;
+  }
+
+  /* remove me^^^ */
+
+
+
+
+
+
+
+/* Input & Output */
+
+/* Buttons */
+    /*  */
+    /*  */
+    /*  */
+
+/* Disabled button */
+.button-disabled {
+    padding: 6px 16px 6px 16px;
+    background-color: #B4BDD3;
+    border: 1px solid #B4BDD3;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1.25px;
+    color: #AFAFAF;
+    display: inline-flex;
+    align-items: center; 
+}
+
+/* Defualt button with user action pseudo-classes*/
+.button-default {
+    padding: 6px 16px 6px 16px;
+    background-color: #3772FF;
+    border: 1px solid #3772FF;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1.25px;
+    color: #FFFFFF;
+    display: inline-flex;
+    align-items: center; 
+}
+.button-default:hover {
+    background-color: #6A96FF;
+}
+.button-default:active {
+    background-color: #8EAFFF;
+    border: 1px solid #8EAFFF;
+}
+.button-default:focus {
+    background-color: #316EFF;
+    border: 1px solid #004BFF;  
+}
+
+/* Primary button with user action pseudo-classes (primary isn't replacing defualt) */
+.button-primary {
+    padding: 6px 16px 6px 16px;
+    background-color: #45B26B;
+    border: 1px solid #45B26B;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1.25px;
+    color: #FFFFFF;
+    display: inline-flex;
+    align-items: center; 
+}
+.button-primary:hover {
+    background-color: #63D68B;
+}
+.button-primary:active {
+    background-color: #73E59B;
+    border: 1px solid #73E59B;
+}
+.button-primary:focus {
+    background-color: #4FC97A;
+    border: 1px solid #2EDF6B;  
+}
+
+/* Alternative button with user action pseudo-classes (Alt is mainly for dangerous buttons) */
+.button-alt {
+    padding: 6px 16px 6px 16px;
+    background-color: #E72929;
+    border: 1px solid #E72929;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1.25px;
+    color: #FFFFFF;
+    display: inline-flex;
+    align-items: center; 
+}
+.button-alt:hover  {
+    background-color: #F25353;
+}
+.button-alt:active {
+    background-color: #FF7878;
+    border: 1px solid #FF7878;  
+}
+.button-alt:focus {
+    background-color: #E72929;
+    border: 1px solid #C50707;  
+}
