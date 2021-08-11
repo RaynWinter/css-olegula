@@ -40,7 +40,14 @@ body {
   .header .logo {
     display: block;
     float: left;
-    font-size: 2em;
+
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+
+
     padding: 10px 20px;
     text-decoration: none;
     color: white;
