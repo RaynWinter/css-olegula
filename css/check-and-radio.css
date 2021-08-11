@@ -3,8 +3,8 @@
     /*  */
     /*  */
 
-   /* reset for defualt checkbox very important */
-   .custom-checkbox {
+ /* reset for defualt checkbox very important */
+.custom-checkbox {
     position: absolute;
     z-index: -1;
     opacity: 0;

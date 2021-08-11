@@ -4,14 +4,26 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Framework</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta login="description" content="">
+        <meta login="viewport" content="width=device-width, initial-scale=1">
         <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
         <link rel="stylesheet" href="css/typography.css">
+        <link rel="stylesheet" href="css/nav.css">
         <link rel="stylesheet" href="login.css">
         <link rel="stylesheet" href="login-background.css">
     </head>
     <body>
+        <header class="header">
+            <a href="" class="logo">BLIMP</a>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            <ul class="menu">
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+            </ul>
+          </header>
         <div>
             <div class="littlestars"></div>
             <!-- <div class="littlebitmorestars></div> -->
@@ -23,13 +35,27 @@
                 <div class="login-form-title">Log In</div>
                 <form>
                     <div class="login-wrapper">
-                        <label for="name">Login:</label>
-                        <input type="text" id="name" name="name" required minlength="4" maxlength="8" size="10">
-
-                        <label for="name">Password:</label>
-                        <input type="text" id="name" name="name" required minlength="4" maxlength="8" size="10">
+                        <div class="form-group">
+                            <input class="form-control" type="text" id="login" login="login" required minlength="1" maxlength="12" size="10">
+                            <label for="login">Login:</label>
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" type="text" id="password" login="password" required minlength="1" maxlength="20" size="10">
+                            <label for="password">Password:</label>
+                        </div>
+                        <div class="checbkox-wrapper">
+                            <div class="checkbox">
+                                <input class="custom-checkbox" type="checkbox" id="check-2" >
+                                <label for="check-2">Remember me</label>
+                            </div>
+                        </div>
+                        <Button class="login-btn">Default</Button>
+                        <div class="login-links">
+                            <div class="login-link-left"><a href="#">Create account</a></div>
+                            <div class="login-link-left"><a href="#">Forgot password?</a></div>
+                        </div>
                     </div>
-                    <Button class="login-btn">Default</Button>
+                    
                 </form>
             </div>
         </div>
